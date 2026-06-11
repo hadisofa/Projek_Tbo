@@ -62,7 +62,7 @@ def dashboard_page():
         """, unsafe_allow_html=True)
     st.image(
         "assets/xiaomi14.png",
-        use_container_width=True
+        width=900
     )
 
     st.markdown("<br>", unsafe_allow_html=True)
